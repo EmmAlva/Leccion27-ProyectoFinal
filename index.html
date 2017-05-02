@@ -11,18 +11,18 @@
 </head>
 <body>
 	<header>
-		<div id="header" class="run" >
+		<div id="header">
 			<!-- <img id="img-pink" src="assets/img/logo-pink.png" alt="logo-pink"> -->
 			<img id="img-white" src="assets/img/logo-white.png" alt="logo-white">
 			<nav>
 				<ul>
-					<li><a href="">Drive</a></li>
-					<li><a href="">Explore</a></li>
-					<li><a href="">Help</a></li>
+					<li><a class="change" href="">Drive</a></li>
+					<li><a class="change" href="">Explore</a></li>
+					<li><a class="change" href="">Help</a></li>
 				</ul>
 				<div>
-					<a href="">Log in</a>
-					<a href="" class="sign-up">Sign up</a>
+					<a class="change" href="">Log in</a>
+					<a href="" class="sign-up change">Sign up</a>
 				</div>
 			</nav>	
 		</div>	
@@ -36,20 +36,20 @@
 				<div>
 					<form action="">
 						<div>
-							<input type="tel" placeholder="Phone Number">
+							<input id="phoneNumber" type="tel" placeholder="Phone Number" required="" pattern=".\+\d{2}.\s\d{3}\-\d{6}">
 						</div>
 						<div>
-							<input class="middle" type="text" placeholder="First Name">
+							<input id="name" class="middle" type="text" placeholder="First Name" required="" pattern="">
 						
 						<span class="right">
-							<input class="middle" type="text" placeholder="Last Name" id="lastname">
+							<input class="middle" type="text" placeholder="Last Name" id="lastname" required="">
 						</span>
 						</div>
 						<div>
-							<input type="email" placeholder="Email">
+							<input id="email" type="email" placeholder="Email" required="">
 						</div>
 						<div>
-							<input class="middle" type="text" placeholder="City">
+							<input id="city" class="middle" type="text" placeholder="City" required="">
 						
 						<span class="right"><ins>Promo code?</ins></span>
 						</div>
