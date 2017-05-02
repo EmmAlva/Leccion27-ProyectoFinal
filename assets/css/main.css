@@ -52,7 +52,8 @@ div > a{
 	border-radius:  15px;
 	padding: 10px 10px;
 }
-div > a:nth-child(2){
+/*div > a:nth-child(2){*/
+.sign-up{
 	color: #D50D9F;
 	border-color: #D50D9F;
 
@@ -157,4 +158,70 @@ h2{
 /*FOOTER*/
 footer{
 	background: #333447;
+	position: relative;
 }
+.foot{
+	margin-left: 120px;
+	/*display: inline-block;*/
+}
+h4{
+	color: white;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.foot-two{
+	/*margin-bottom: 100px;*/
+	position: absolute;
+	top: 0;
+	left:250px;
+}
+.foot-three{
+	position: absolute;
+	top: 0;
+	left: 500px;
+}
+.foot > a{
+	display: block;
+	border: none;
+	color: #fff;
+}
+.foot > a:hover{
+	color: #D50D9F;
+	text-decoration: underline;
+}
+.foot-right{
+	display: inline-block;
+}
+.box2{
+	/*margin-left: 120px;*/
+	position: absolute;
+	top: 50px;
+	right: 220px;
+}
+.foot-img{
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin: 20px;
+}
+/*SOCIAL*/
+.social{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding:40px;
+	/*padding-bottom: 40px;*/
+}
+.icon-bord{
+	border:1px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	padding: 15px;
+	width: 15px;
+	height: 15px;
+	margin: 30px;
+}
+hr{
+	width: 70%;
+};
