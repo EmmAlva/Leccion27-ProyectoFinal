@@ -8,7 +8,7 @@ var lastScrollTop = 0;
 			// imgWhite.style.display = "none";
 
 		}else{
-			document.getElementById("header").className ="";
+			document.getElementById("header").className = "";
 			// imgWhite.style.display = "block";
 			// imgPink.style.display  ="none";
 
