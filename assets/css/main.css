@@ -163,7 +163,44 @@ h2{
 
 }
 /*SECTION 3*/
-
+h5{
+	font-size: 18px;
+}
+h3{
+	font-size: 25px;
+	font-weight: 500;
+}
+.section{
+	width: 350px;
+}
+.third{
+	position: relative;
+}
+.section-three{
+	margin:40px;
+	padding:40px;
+	position: relative;
+}
+.video1{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*.video2{
+	position: absolute;
+	top: 0;
+	left: 0;
+}*/
+.box4{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.video3{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 /*FOOTER*/
 footer{
 	background: #333447;
