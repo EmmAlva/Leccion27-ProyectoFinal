@@ -60,12 +60,13 @@ div > a:nth-child(2){
 /*REGISTRO*/
 aside{
 	position: relative;
-	left: 785px;
+	left: 800px;
 	/*margin-left: 850px;*/
 	background: #fff;
-	width: 500px;
-	padding: 30px;
+	/*width: 500px;*/
+	padding: 60px;
 	color: #352384;
+	display: inline-block;
 
 }
 #registro{
@@ -99,14 +100,22 @@ input{
 	border-bottom: 1px solid #352384;
 	color: #352384;
 	margin: 10px 0;
+	width: 100%;
 
 }
 input::placeholder{
 	color: #728099;
 
 }
+form{
+	width: 445px;
+}
+
+.middle{
+	width: 45%;
+}
 .right{
-	margin-left: 20px;
+	margin-left: 40px;
 	color: #728099;
 	font-size: 13px;
 }
@@ -117,6 +126,7 @@ button{
 	padding: 20px;
 	border-radius: 5px;
 	font-size: 15px;
+	margin-top: 20px;
 }
 span:nth-child(6){
 	color: #728099;
